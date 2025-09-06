@@ -1,11 +1,8 @@
 # 🚀 Projects Portfolio
 
-This repository contains two academic/portfolio projects:  
-
-1. 🛍️ **E-Shopify – E-Commerce Website**  
-2. 📚 **Library Management System**  
-
-Both projects are built to demonstrate front-end and back-end development skills, including database connectivity, responsive design, and user-friendly features.
+🔗 Live Demo: [Eshopify](https://kmanjunathswamy.github.io/eshopify/)
+  
+🛍️ **E-Shopify – E-Commerce Website**  
 
 ---
 
