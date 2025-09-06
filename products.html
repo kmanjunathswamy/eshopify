@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-Shopify</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">E-Shopify</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html?catalog=all">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="cart-icon">
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-page">
+            <div class="product-header">
+                <h1 id="catalog-title">All Products</h1>
+                <div class="product-controls">
+                    <div class="search-bar">
+                        <input type="text" id="product-search" placeholder="Search products...">
+                    </div>
+                    <div class="sort-dropdown">
+                        <label for="sort-by">Sort by:</label>
+                        <select id="sort-by">
+                            <option value="default">Default</option>
+                            <option value="price-asc">Price: Low to High</option>
+                            <option value="price-desc">Price: High to Low</option>
+                            <option value="name-asc">Name: A-Z</option>
+                            <option value="name-desc">Name: Z-A</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="product-grid" id="product-list">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Shopify. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
